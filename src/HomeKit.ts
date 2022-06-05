@@ -1,6 +1,6 @@
 import { CharacteristicEventTypes, CharacteristicGetCallback, CharacteristicSetCallback, CharacteristicValue, Service } from "hap-nodejs";
-import { Reflection } from "reflection";
-import { Device, DeviceExtension, IDeviceConfig } from "smart-hut";
+import { Reflection } from "@kezziny/reflection";
+import { Device, DeviceExtension, IDeviceConfig } from "@kezziny/smart-hut";
 import { HomeKitExtension } from "./Extension";
 
 export { Characteristic } from "hap-nodejs";

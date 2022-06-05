@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.HomeKit = exports.HomeKitDevice = exports.Characteristic = void 0;
 const hap_nodejs_1 = require("hap-nodejs");
-const reflection_1 = require("reflection");
-const smart_hut_1 = require("smart-hut");
+const reflection_1 = require("@kezziny/reflection");
+const smart_hut_1 = require("@kezziny/smart-hut");
 const Extension_1 = require("./Extension");
 var hap_nodejs_2 = require("hap-nodejs");
 Object.defineProperty(exports, "Characteristic", { enumerable: true, get: function () { return hap_nodejs_2.Characteristic; } });
