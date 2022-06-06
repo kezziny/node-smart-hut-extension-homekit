@@ -22,7 +22,7 @@
   "homepage": "https://github.com/kezziny/node-smart-hut-extension-homekit#readme",
   "dependencies": {
     "@kezziny/reflection": "^1.0.0",
-    "@kezziny/smart-hut": "^1.0.1",
+    "@kezziny/smart-hut": "file:../node-smart-hut",
     "hap-nodejs": "^0.10.2",
     "typescript": "^4.7.2"
   }

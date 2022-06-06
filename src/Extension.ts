@@ -10,7 +10,7 @@ export class HomeKitExtension {
   public static Accessory;
   public static Configuration: IHomeKitConfig
 
-  public static async Setup(config: any): Promise<void> {
+  public static async Setup(config: IHomeKitConfig): Promise<void> {
     HomeKitExtension.Configuration = config;
     HomeKitExtension.Accessory = new Accessory("SmartHut", uuid.generate("smart-hut-extension-homekit"));
   }
